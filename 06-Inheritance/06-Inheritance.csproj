@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C94ACF37-03C0-4635-8C32-3BDF5ABF821D}</ProjectGuid>
+    <ProjectGuid>{6F71A903-E90B-4831-8E8A-C400CF97A44C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EFAassignment</RootNamespace>
-    <AssemblyName>EFAassignment</AssemblyName>
+    <RootNamespace>_06_Inheritance</RootNamespace>
+    <AssemblyName>06-Inheritance</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,8 +49,13 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EfaQuizJan28.cs" />
-    <Compile Include="W1D3amAsg.cs" />
+    <Compile Include="Animals\Animal.cs" />
+    <Compile Include="Animals\Bird.cs" />
+    <Compile Include="AnimalTests\BirdTests.cs" />
+    <Compile Include="PeopleTest\CustomerTest.cs" />
+    <Compile Include="People\Customer.cs" />
+    <Compile Include="People\Employee.cs" />
+    <Compile Include="People\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

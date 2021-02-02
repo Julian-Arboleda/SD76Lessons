@@ -11,8 +11,8 @@ namespace _02_Operators
         public void ComparisonOperators()
         {
             int age = 26;
-            bool equals = age == 42; //expression(s)
-            Console.WriteLine("Am I 42? " +equals);
+            bool equals = age == 42; //expressions
+            Console.WriteLine("Am I 42? " + equals);
 
 
             string name = "Julian";
@@ -50,6 +50,8 @@ namespace _02_Operators
             // if values don't both equal true or false, then it's false
 
             //XOR, NAND, NOR, XNOR <----- not included, but interesting.
+
+            // || means or
 
 
         }

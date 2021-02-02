@@ -22,7 +22,7 @@ namespace _04_Loops
             }
 
             int number = 5;
-            Console.WriteLine(++number);
+            Console.WriteLine(number++);
 
 
             Random randy = new Random();

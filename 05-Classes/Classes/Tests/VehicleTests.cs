@@ -12,11 +12,11 @@ namespace _05_Classes.Classes.Tests
             Vehicle firstVehicle = new Vehicle("Honda", "Civic", VehicleType.Car);
             firstVehicle.Make = "Honda";
 
-            Console.WriteLine(firstVehicle.Make);
             firstVehicle.Make = "CEC";
             firstVehicle.Model = "YT-1300f";
             firstVehicle.Mileage = 2400000;
             firstVehicle.Type = VehicleType.Spaceship;
+            Console.WriteLine(firstVehicle.Mileage);
         }
         [TestMethod]
         public void Methods()

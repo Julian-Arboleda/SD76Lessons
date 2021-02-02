@@ -9,7 +9,7 @@ namespace _03_Conditionals
         [TestMethod]
         public void SwitchCondition()
         {
-            int day = 1;
+            int day = 2;
 
             switch(day)
             {

@@ -56,12 +56,21 @@
     <Compile Include="Classes\Tests\PersonTests.cs" />
     <Compile Include="Classes\Tests\GreeterTests.cs" />
     <Compile Include="Classes\Tests\RoomTests.cs" />
+    <Compile Include="Classes\Tests\CalculatorTests.cs" />
     <Compile Include="Classes\Tests\VehicleTests.cs" />
+    <Compile Include="Classes\Tests\_User.cs" />
     <Compile Include="Classes\Vehicle.cs" />
+    <Compile Include="Classes\WhiteboardProblems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\06-Inheritance\06-Inheritance.csproj">
+      <Project>{6f71a903-e90b-4831-8e8a-c400cf97a44c}</Project>
+      <Name>06-Inheritance</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
