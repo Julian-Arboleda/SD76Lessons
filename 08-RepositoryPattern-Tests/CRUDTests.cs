@@ -1,4 +1,5 @@
 ﻿using _07_RepositoryPattern_Repo;
+using _07_RepositoryPattern_Repo.Content;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -42,6 +43,23 @@ namespace _08_RepositoryPattern_Tests
                GenreType.Drama
                );
             _repo.AddContentToDirectory(_content);
+
+
+            Show show = new Show();
+            show.Title = "Arrested Development";
+            show.SeasonCount = 4;
+            Episode ep = new Episode();
+            ep.Title = "Courting Disasters";
+            Episode ep2 = new Episode();
+            ep2.Title = "Pier Pressire";
+
+            _repo.AddContentToDirectory(show);
+
+            Movie movie = new Movie();
+            movie.Title = "Roller Blade";
+            movie.Description = "In a world of blood and greed, curvaceous crusafers battle to rebuilt a battered land.";
+
+            _repo.AddContentToDirectory(movie);
         }
         
 
@@ -91,14 +109,14 @@ namespace _08_RepositoryPattern_Tests
         {
             // Arrange
             // Act
-            List<StreamingContent> famillyFriendly = _repo.GetFamilyFriendlyContent();
-            foreach (StreamingContent content in famillyFriendly)
+            List<StreamingContent> familyFriendly = _repo.GetFamilyFriendlyContent();
+            foreach (StreamingContent content in familyFriendly)
             {
                 if (content.IsFamilyFriendly)
                 {
                     Assert.IsTrue(content.IsFamilyFriendly);
                 }
-                Assert.AreEqual(2, famillyFriendly.Count);
+                Assert.AreEqual(2, familyFriendly.Count);
             }
             
 

@@ -49,7 +49,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EfaQuizJan28.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="CustomerRepo.cs" />
+    <Compile Include="KomodoInsurance\IKomodo.cs" />
+    <Compile Include="KomodoInsurance\KomodoClasses.cs" />
+    <Compile Include="KomodoInsurance\KomodoTests.cs" />
     <Compile Include="W1D3amAsg.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -61,6 +61,6 @@ namespace _07_RepositoryPattern_Repo
             GenreType = genre;
         }
     }
-    public enum Maturity { G, PG, R, PG13, NC17, TVY, TVY7, TVMA, TVPG }
-    public enum GenreType { Horror, Comedy, SciFi, Romance, Romans, Action, International, Drama, SciFiComedy }
+    public enum Maturity { G = 1, PG, R, PG13, NC17, TVY, TVY7, TVMA, TVPG }
+    public enum GenreType { Horror = 1, Comedy, SciFi, Romance, Romans, Action, International, Drama, SciFiComedy }
 }
