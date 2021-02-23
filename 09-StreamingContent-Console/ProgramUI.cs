@@ -10,10 +10,12 @@ namespace _09_StreamingContent_Console.UI
     public class ProgramUI
     {
         private readonly StreamingContent_Repo _repo = new StreamingContent_Repo();
+        
+        // method that runs or starts application - Run()
         public void Run()
         {
-            // SeedContentList();
-            // RunMenu();
+            SeedContentList();
+             RunMenu();
             Console.ReadKey();
         }
         private void RunMenu()

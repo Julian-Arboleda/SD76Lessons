@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangmanProject", "ConsoleGame\HangmanProject.csproj", "{29136919-3A45-4AB1-ACBC-CE84E45515B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGameLol", "GuessingGameLol\GuessingGameLol.csproj", "{9DD336CA-0A42-4287-8DA5-254B36DB435E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-APIs", "12_APIs\12-APIs.csproj", "{AA09D834-F8AA-453D-AD02-0CD7D360D762}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,10 +101,10 @@ Global
 		{29136919-3A45-4AB1-ACBC-CE84E45515B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29136919-3A45-4AB1-ACBC-CE84E45515B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29136919-3A45-4AB1-ACBC-CE84E45515B2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9DD336CA-0A42-4287-8DA5-254B36DB435E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9DD336CA-0A42-4287-8DA5-254B36DB435E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9DD336CA-0A42-4287-8DA5-254B36DB435E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9DD336CA-0A42-4287-8DA5-254B36DB435E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA09D834-F8AA-453D-AD02-0CD7D360D762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA09D834-F8AA-453D-AD02-0CD7D360D762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA09D834-F8AA-453D-AD02-0CD7D360D762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA09D834-F8AA-453D-AD02-0CD7D360D762}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

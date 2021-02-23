@@ -16,7 +16,7 @@ namespace _03_Conditionals
             }
 
             int hoursSpentStudying = 1;
-            if (hoursSpentStudying <12)
+            if (hoursSpentStudying < 12)
             {
                 Console.WriteLine("Are you even trying??");
             }
@@ -58,8 +58,7 @@ namespace _03_Conditionals
         {
             int age = 35;
 
-            Console.WriteLine("Welcome to the library, you may visit the "
-                + (age >= 18 ? "whole library" : "children's section only"));
+            Console.WriteLine("Welcome to the library, you may visit the "  + (age >= 18 ? "whole library" : "children's section only"));
 
             bool hasKey = true;
             int score = hasKey ? 200 : 50;

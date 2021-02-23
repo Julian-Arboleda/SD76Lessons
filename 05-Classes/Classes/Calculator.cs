@@ -20,9 +20,9 @@ namespace _05_Classes.Classes
             return numOne + numTwo;
         }
 
-        internal bool Divide(int v1, int v2)
+        public int  Divide(int numOne, int numTwo)
         {
-            throw new NotImplementedException();
+            return numOne / numTwo;
         }
 
         public int Subtract(int numOne, int numTwo)
@@ -32,22 +32,7 @@ namespace _05_Classes.Classes
                 return difference;
             }
 
-            // public double Divide(int numOne, int numTwo)
-
-            //return (double) numOne / numTwo;
-            // double numOneDouble = Convert.ToDouble(numOne);
-            // double numTwoDouble = Convert.ToDouble(numTwo);
-            // double quotient = 3 / 5;
-            // return quotient;
-
-
-
-
-
-
-
-
-
+            
 
         }
         public double Multiply(int numOne, int numTwo)
@@ -56,8 +41,8 @@ namespace _05_Classes.Classes
             // double numOneDouble = Convert.ToDouble(numOne);
             // double numTwoDouble = Convert.ToDouble(numTwo);
             // double quotient = numOneDouble / numTwoDouble;
-            double quotient = 3 / 5;
-            return quotient;
+            double prod = 3 * 5;
+            return prod;
         }
         public double Add(string numStringOne, string numStringTwo)
         {

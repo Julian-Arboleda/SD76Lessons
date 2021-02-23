@@ -27,11 +27,11 @@ namespace _04_Loops
 
 
             Random randy = new Random();
-            int someNumber = randy.Next(0, 21);
+            int someNumber = randy.Next(0,21);
 
             while (true)
             {
-                someNumber = randy.Next(0, 21);
+                someNumber = randy.Next(0,21);
                 if (someNumber == 7)
                 {
                     break;
@@ -63,7 +63,7 @@ namespace _04_Loops
             }
 
             Random randy = new Random();
-            for (int i = 0; i != 5; i = randy.Next(0, 21))
+            for (int i = 0; i != 5; i = randy.Next(0,21))
             {
                 if (i == 5)
                 {

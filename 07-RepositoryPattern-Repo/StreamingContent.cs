@@ -35,9 +35,7 @@ namespace _07_RepositoryPattern_Repo
             }
         }
                 // This is OK
-                // if (MaturityRating == Maturity.G
-                //     || MaturityRating == Maturity.PG
-                //     || ...)
+                // if (MaturityRating == Maturity.G || MaturityRating == Maturity.PG || ...)
                 // {
                 // }
                 // This is NOT OK

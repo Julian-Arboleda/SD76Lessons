@@ -26,7 +26,8 @@ namespace _07_RepositoryPattern_Repo
         // Read
         // Update
         // Delete
-
+         
+        // Create
         public bool AddContentToDirectory(StreamingContent content)
         {
             int startingCount = _directory.Count;
@@ -37,11 +38,13 @@ namespace _07_RepositoryPattern_Repo
             return wasAdded;
         }
 
+        // Read
         public List<StreamingContent> GetContents()
         {
             return _directory;
         }
 
+       // Helper method
         public StreamingContent GetContentByTitle(string title)
         {
             foreach (StreamingContent content in _directory)
@@ -59,23 +62,7 @@ namespace _07_RepositoryPattern_Repo
 
 
 
-        // Challenge:
-        // Write a method that returns a list of only family-friendly content
-
-
-        public List<StreamingContent> GetFamilyFriendlyContent()
-        {
-            List<StreamingContent> familyFriendly = new List<StreamingContent>();
-            foreach(StreamingContent content in _directory)
-            {
-                if (content.IsFamilyFriendly) 
-                {
-                    familyFriendly.Add(content);
-                }
-            }
-            return familyFriendly;
-        }
-
+        // Update
         public bool UpdateExistingContent(string originalTitle, StreamingContent newContent)
         {
             StreamingContent oldContent = GetContentByTitle(originalTitle);
@@ -92,6 +79,7 @@ namespace _07_RepositoryPattern_Repo
             return false;          
         }
 
+        // Delete
         public bool DeleteContent(string title)
         {
             StreamingContent contentToDelete = GetContentByTitle(title);
@@ -99,6 +87,22 @@ namespace _07_RepositoryPattern_Repo
         }
 
             
+        // Challenge:
+        // Write a method that returns a list of only family-friendly content
+
+
+        public List<StreamingContent> GetFamilyFriendlyContent()
+        {
+            List<StreamingContent> familyFriendly = new List<StreamingContent>();
+            foreach(StreamingContent content in _directory)
+            {
+                if (content.IsFamilyFriendly) 
+                {
+                    familyFriendly.Add(content);
+                }
+            }
+            return familyFriendly;
+        }
 
     }
     
