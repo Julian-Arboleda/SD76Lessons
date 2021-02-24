@@ -10,7 +10,7 @@ namespace _12_APIs.Models
     {
         public string Name { get; set; }
         public double Height { get; set; }
-        public string Mass { get; set; }
+        public string   Mass { get; set; }
         public string Hair_Color { get; set; }
         public string Eye_Color { get; set; }
         public string Homeworld { get; set; }

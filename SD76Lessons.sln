@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangmanProject", "ConsoleGa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-APIs", "12_APIs\12-APIs.csproj", "{AA09D834-F8AA-453D-AD02-0CD7D360D762}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-RestaurantRater", "13-RestaurantRater\13-RestaurantRater.csproj", "{3AE495CA-8E48-407E-9890-2555A900967D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-GeneralStore", "14-GeneralStore\14-GeneralStore.csproj", "{E5040B15-9108-4CB6-B3C2-137DDF480B99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{AA09D834-F8AA-453D-AD02-0CD7D360D762}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA09D834-F8AA-453D-AD02-0CD7D360D762}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA09D834-F8AA-453D-AD02-0CD7D360D762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE495CA-8E48-407E-9890-2555A900967D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE495CA-8E48-407E-9890-2555A900967D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE495CA-8E48-407E-9890-2555A900967D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE495CA-8E48-407E-9890-2555A900967D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5040B15-9108-4CB6-B3C2-137DDF480B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5040B15-9108-4CB6-B3C2-137DDF480B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5040B15-9108-4CB6-B3C2-137DDF480B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5040B15-9108-4CB6-B3C2-137DDF480B99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
